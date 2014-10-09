@@ -8,3 +8,37 @@ alu4085@cc196:~/datos/homes.rala/LPP/prct03/prct03$ irb helloworld.rb
 Hello wold
  => nil 
 2.0.0p247 :002 >
+
+26
+  5: def byebye() puts "bye bye world!!!"end
+     6: #set x to 10
+     7: x = 10
+     8: 
+     9: #start a PERL session
+ => 10: binding.pry
+    11: #program resumes here (after pry session)
+    12: puts "program resumes here. Value of x is : #{x}."
+    13:  
+
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> 
+[3] pry(main)> def hello
+[3] pry(main)*   puts "Hello world"
+[3] pry(main)* end  
+=> nil
+[4] pry(main)> hello
+Hello world
+=> nil
+[5] pry(main)> byebye
+bye bye world!!!
+=> nil
+[6] pry(main)> x = "changed"
+=> "changed"
+[7] pry(main)> exit
+program resumes here. Value of x is : changed.
+27
+te permite ejecutar una clase en tiempo de ejecucion (pry)
+mientras que irb te ejecuta la clase pero no puedes modificarla en tiempo de ejecucion.
+
