@@ -2,7 +2,7 @@
 2.0.0p247 :001 > puts "Hello wold"
 Hello wold
  => nil 
-21 no hay diferencia ninguna
+19 no hay diferencia ninguna
 alu4085@cc196:~/datos/homes.rala/LPP/prct03/prct03$ irb helloworld.rb 
 2.0.0p247 :001 >  puts "Hello wold" 
 Hello wold
